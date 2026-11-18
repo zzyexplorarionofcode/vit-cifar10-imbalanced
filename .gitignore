@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/*.npy
+checkpoints/*_last.pt
+.dsh-office-*/
+results/complexity_parts/

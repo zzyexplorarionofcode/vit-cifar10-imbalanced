@@ -1,0 +1,44 @@
+[baseline_ce] model=vit loss=ce params=311,338
+train=32023 val=3557 test=4870 counts=[3991, 3770, 2759, 3772, 4062, 3345, 3162, 2924, 2417, 1821]
+epoch 01/20 loss=2.0634 train_acc=0.2701 val_acc=0.3253 val_f1=0.2503 train_s=43.8 total_s=45.4 lr=2.50e-04
+memory: available=2.21GB process_rss=0.64GB
+epoch 02/20 loss=1.8414 train_acc=0.3681 val_acc=0.4054 val_f1=0.3558 train_s=47.5 total_s=49.1 lr=5.00e-04
+memory: available=2.09GB process_rss=0.67GB
+epoch 03/20 loss=1.7017 train_acc=0.4416 val_acc=0.4681 val_f1=0.4268 train_s=47.5 total_s=49.2 lr=4.96e-04
+memory: available=2.09GB process_rss=0.68GB
+epoch 04/20 loss=1.6132 train_acc=0.4824 val_acc=0.4681 val_f1=0.4371 train_s=45.3 total_s=46.8 lr=4.85e-04
+memory: available=2.32GB process_rss=0.69GB
+epoch 05/20 loss=1.5604 train_acc=0.5081 val_acc=0.5224 val_f1=0.5092 train_s=42.0 total_s=43.6 lr=4.67e-04
+memory: available=2.34GB process_rss=0.68GB
+epoch 06/20 loss=1.5238 train_acc=0.5228 val_acc=0.5313 val_f1=0.5116 train_s=41.1 total_s=42.6 lr=4.43e-04
+memory: available=2.30GB process_rss=0.67GB
+epoch 07/20 loss=1.4953 train_acc=0.5388 val_acc=0.5406 val_f1=0.5157 train_s=40.1 total_s=41.7 lr=4.12e-04
+memory: available=2.34GB process_rss=0.70GB
+epoch 08/20 loss=1.4669 train_acc=0.5540 val_acc=0.5482 val_f1=0.5312 train_s=41.9 total_s=43.4 lr=3.78e-04
+memory: available=2.37GB process_rss=0.71GB
+epoch 09/20 loss=1.4415 train_acc=0.5652 val_acc=0.5777 val_f1=0.5624 train_s=41.6 total_s=43.1 lr=3.39e-04
+memory: available=2.38GB process_rss=0.70GB
+epoch 10/20 loss=1.4164 train_acc=0.5764 val_acc=0.5904 val_f1=0.5788 train_s=42.8 total_s=44.4 lr=2.98e-04
+memory: available=2.40GB process_rss=0.67GB
+epoch 11/20 loss=1.3865 train_acc=0.5907 val_acc=0.5805 val_f1=0.5717 train_s=43.6 total_s=45.1 lr=2.55e-04
+memory: available=2.40GB process_rss=0.66GB
+epoch 12/20 loss=1.3714 train_acc=0.5961 val_acc=0.6078 val_f1=0.5856 train_s=41.5 total_s=43.0 lr=2.12e-04
+memory: available=2.31GB process_rss=0.70GB
+epoch 13/20 loss=1.3453 train_acc=0.6087 val_acc=0.6179 val_f1=0.6085 train_s=42.8 total_s=44.3 lr=1.71e-04
+memory: available=2.37GB process_rss=0.68GB
+epoch 14/20 loss=1.3269 train_acc=0.6198 val_acc=0.6165 val_f1=0.6080 train_s=42.8 total_s=44.3 lr=1.33e-04
+memory: available=2.34GB process_rss=0.69GB
+epoch 15/20 loss=1.3058 train_acc=0.6309 val_acc=0.6449 val_f1=0.6393 train_s=44.3 total_s=45.8 lr=9.75e-05
+memory: available=2.32GB process_rss=0.69GB
+epoch 16/20 loss=1.2864 train_acc=0.6387 val_acc=0.6494 val_f1=0.6316 train_s=44.4 total_s=45.9 lr=6.73e-05
+memory: available=2.29GB process_rss=0.66GB
+epoch 17/20 loss=1.2735 train_acc=0.6460 val_acc=0.6579 val_f1=0.6506 train_s=42.6 total_s=44.2 lr=4.28e-05
+memory: available=2.24GB process_rss=0.72GB
+epoch 18/20 loss=1.2619 train_acc=0.6493 val_acc=0.6654 val_f1=0.6605 train_s=44.6 total_s=46.1 lr=2.48e-05
+memory: available=2.25GB process_rss=0.69GB
+epoch 19/20 loss=1.2545 train_acc=0.6544 val_acc=0.6691 val_f1=0.6642 train_s=43.8 total_s=45.3 lr=1.37e-05
+memory: available=2.27GB process_rss=0.68GB
+epoch 20/20 loss=1.2519 train_acc=0.6562 val_acc=0.6683 val_f1=0.6654 train_s=43.9 total_s=45.5 lr=1.00e-05
+memory: available=2.27GB process_rss=0.68GB
+BEST epoch=19 val_acc=0.6691 | TEST acc=0.6493 macro_f1=0.6478 bal_acc=0.6493
+finished in 902.8s; results -> D:\claude-code\ViT\vit_cifar10_lab\results\baseline_ce.json

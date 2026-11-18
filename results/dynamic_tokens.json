@@ -1,0 +1,26 @@
+{
+  "kept_tokens": [
+    65,
+    49,
+    25,
+    7
+  ],
+  "stages": [
+    "输入",
+    "Block 1 后",
+    "Block 2 后",
+    "Block 3 后"
+  ],
+  "keep_ratios": [
+    0.75,
+    0.5,
+    0.25
+  ],
+  "patch_tokens": [
+    64,
+    48,
+    24,
+    6
+  ],
+  "final_ratio": 0.1076923076923077
+}

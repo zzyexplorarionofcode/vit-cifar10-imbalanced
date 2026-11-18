@@ -1,0 +1,46 @@
+[mobile_cb] model=mobile loss=cb params=158,610
+train=32023 val=3557 test=4870 counts=[3991, 3770, 2759, 3772, 4062, 3345, 3162, 2924, 2417, 1821]
+class weights: 0.792, 0.830, 1.081, 0.830, 0.781, 0.917, 0.962, 1.028, 1.214, 1.566
+distillation from checkpoints\baseline_cb_train_logits.pt alpha=0.5 T=2.0
+epoch 01/20 loss=2.6605 train_acc=0.2463 val_acc=0.3143 val_f1=0.2436 train_s=33.2 total_s=34.5 lr=2.50e-04
+memory: available=2.28GB process_rss=0.58GB
+epoch 02/20 loss=2.2432 train_acc=0.3545 val_acc=0.3821 val_f1=0.3537 train_s=33.3 total_s=34.5 lr=5.00e-04
+memory: available=2.28GB process_rss=0.61GB
+epoch 03/20 loss=2.0456 train_acc=0.4179 val_acc=0.4495 val_f1=0.4185 train_s=34.8 total_s=36.0 lr=4.96e-04
+memory: available=2.30GB process_rss=0.60GB
+epoch 04/20 loss=1.8829 train_acc=0.4777 val_acc=0.5094 val_f1=0.5053 train_s=35.0 total_s=36.2 lr=4.85e-04
+memory: available=2.32GB process_rss=0.61GB
+epoch 05/20 loss=1.7713 train_acc=0.5114 val_acc=0.5457 val_f1=0.5420 train_s=33.7 total_s=34.9 lr=4.67e-04
+memory: available=2.27GB process_rss=0.61GB
+epoch 06/20 loss=1.6947 train_acc=0.5403 val_acc=0.5569 val_f1=0.5504 train_s=33.6 total_s=34.9 lr=4.43e-04
+memory: available=2.31GB process_rss=0.61GB
+epoch 07/20 loss=1.6309 train_acc=0.5619 val_acc=0.5884 val_f1=0.5810 train_s=36.0 total_s=37.2 lr=4.12e-04
+memory: available=2.15GB process_rss=0.60GB
+epoch 08/20 loss=1.5882 train_acc=0.5767 val_acc=0.5935 val_f1=0.5866 train_s=35.3 total_s=36.6 lr=3.78e-04
+memory: available=2.12GB process_rss=0.61GB
+epoch 09/20 loss=1.5489 train_acc=0.5922 val_acc=0.6109 val_f1=0.6113 train_s=36.0 total_s=37.3 lr=3.39e-04
+memory: available=1.98GB process_rss=0.63GB
+epoch 10/20 loss=1.5164 train_acc=0.6057 val_acc=0.6162 val_f1=0.6089 train_s=35.1 total_s=36.4 lr=2.98e-04
+memory: available=1.99GB process_rss=0.59GB
+epoch 11/20 loss=1.4841 train_acc=0.6171 val_acc=0.6387 val_f1=0.6387 train_s=35.7 total_s=37.0 lr=2.55e-04
+memory: available=1.96GB process_rss=0.62GB
+epoch 12/20 loss=1.4541 train_acc=0.6322 val_acc=0.6452 val_f1=0.6394 train_s=34.4 total_s=35.7 lr=2.12e-04
+memory: available=2.06GB process_rss=0.61GB
+epoch 13/20 loss=1.4400 train_acc=0.6338 val_acc=0.6497 val_f1=0.6477 train_s=35.1 total_s=36.4 lr=1.71e-04
+memory: available=2.09GB process_rss=0.59GB
+epoch 14/20 loss=1.4220 train_acc=0.6426 val_acc=0.6548 val_f1=0.6542 train_s=35.5 total_s=36.7 lr=1.33e-04
+memory: available=2.13GB process_rss=0.55GB
+epoch 15/20 loss=1.4021 train_acc=0.6501 val_acc=0.6629 val_f1=0.6615 train_s=33.7 total_s=35.0 lr=9.75e-05
+memory: available=2.06GB process_rss=0.60GB
+epoch 16/20 loss=1.3916 train_acc=0.6524 val_acc=0.6626 val_f1=0.6618 train_s=34.4 total_s=35.7 lr=6.73e-05
+memory: available=2.10GB process_rss=0.58GB
+epoch 17/20 loss=1.3784 train_acc=0.6599 val_acc=0.6666 val_f1=0.6672 train_s=34.8 total_s=36.0 lr=4.28e-05
+memory: available=2.13GB process_rss=0.58GB
+epoch 18/20 loss=1.3748 train_acc=0.6621 val_acc=0.6730 val_f1=0.6705 train_s=34.0 total_s=35.3 lr=2.48e-05
+memory: available=2.13GB process_rss=0.58GB
+epoch 19/20 loss=1.3699 train_acc=0.6654 val_acc=0.6699 val_f1=0.6696 train_s=36.9 total_s=38.2 lr=1.37e-05
+memory: available=2.12GB process_rss=0.61GB
+epoch 20/20 loss=1.3636 train_acc=0.6671 val_acc=0.6773 val_f1=0.6756 train_s=34.5 total_s=35.8 lr=1.00e-05
+memory: available=2.12GB process_rss=0.59GB
+BEST epoch=20 val_acc=0.6773 | TEST acc=0.6780 macro_f1=0.6750 bal_acc=0.6780
+finished in 723.6s; results -> D:\claude-code\ViT\vit_cifar10_lab\results\mobile_cb.json
